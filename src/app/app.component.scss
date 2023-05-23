@@ -1,0 +1,523 @@
+// navbar
+
+.navbar .navbar-brand{
+    margin-top: -5px;
+}
+.navbar .navbar-nav{
+    margin-left: 15px;
+    
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 0 3px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.navbar .search i{
+    color: rgb(139, 139, 139);
+    padding: 0 10px;
+}
+.navbar .search{
+    padding-left: 50px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a:hover{
+    color: rgb(27, 158, 202);
+}
+li {
+    list-style-type: none;
+}
+
+
+
+
+// footer
+
+.footer{
+    background-color: #f7f8fa;
+    height: 380px;
+    margin-top: 50px;
+}
+
+.footer .foot-content{
+    padding-top: 50px;
+}
+
+.footer .foot-content .foot-links a{
+    display: block;
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+}
+.footer .foot-content .foot-links{
+    margin-top: 20px;
+    line-height: 28px;
+}
+.footer .foot-last p{
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.footer .foot-icon i{
+    margin: 0 10px;
+    color: grey;
+    margin-top: 20px;
+}
+ .foot-bottom{
+    background-color: black;
+    height: 70px;
+}
+.foot-bottom  .foot-bot-cont{
+    padding-top: 20px;
+}
+.foot-bottom img{
+    height: 25px;
+}
+.foot-bottom span{
+    font-size: 13px;
+    color: rgb(235, 218, 218);
+}
+.foot-bottom .foot-bot-cont{
+    padding-left: 120px;
+}
+
+
+
+// -----------------------MEDIA QUERY------------------------------------------------
+
+// for mobile view
+// ==================
+
+// navbar
+
+@media (min-width: 320px) and (max-width : 480px)
+{
+
+    .navbar .search-resp{
+        margin-right: -50px;
+    }
+    
+     // carousel
+#demo .carousel-inner img{
+    height: 200px;
+}
+#demo .carousel-inner .carousel-caption{
+    margin-bottom: 0px;
+    margin-right: 100px;
+    text-align: left;
+}
+#demo .carousel-inner .carousel-caption h1{
+    font-size: 20px;
+}
+#demo .carousel-inner .carousel-caption p{
+    margin-top: 10px;
+    font-size: 10px;
+}
+#demo .carousel-inner .carousel-caption button{
+    padding: 2px 8px;
+    margin-top: 4px;
+    font-size: 8px
+}
+    
+    // card box two
+    .card-box-two .card .card-img-top{
+        height: 250px;
+        width: 300px;
+    }
+    .card-box-two  {
+        margin: 50px 40px;
+    }
+    .card-box  {
+        margin: 50px 30px;
+    }
+    .img-gallary ,.img-gallary-two
+    {
+        margin-left: 80px;
+    }
+    .img-grid .card{
+        width: 400px;
+    }
+    .img-grid .card img{
+        width: 500px;
+    }
+ 
+    .navbar .search i{
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: -90px;
+    }
+    .section-four h6{
+        font-size: 10px;
+    }
+  
+    .foot-bottom span{
+        display: block;
+        margin-left: -40px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .footer{
+        
+        height: 600px;
+    }
+    .foot-bottom{
+        margin-top: 180px;
+        height: 90px;
+    }
+   
+}
+
+// for screen size 375px
+
+@media screen and (max-width:375px)
+{
+   
+    .navbar .search-resp{
+        margin-right: -50px;
+    }
+    .card-box-two  {
+        margin: 50px 10px;
+    }
+    .card-box  {
+        margin: 50px 5px;
+    }
+    .img-gallary ,.img-gallary-two
+    {
+        margin-left: 60px;
+    }
+    .foot-bottom span{
+        display: block;
+        margin-left: -70px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .foot-bottom img{
+        margin-left: -30px;
+    }
+    .foot-bottom{
+        margin-top: 180px;
+        height: 90px;
+    }
+}
+
+// for screen size 375px
+
+@media screen and (max-width:320px)
+{
+    .navbar .navbar-brand{
+        margin-left: 5px
+    }
+    .navbar .search-resp i{
+        margin-right: 30px;
+    }
+   
+    #demo .carousel-inner .carousel-caption h1{
+        font-size: 18px;
+    }
+    .card-box-two  {
+        margin: 50px -5px;
+    }
+    .card-box  {
+        margin: 50px 8px;
+    }
+    .card-box .card{
+        width: 17rem;
+    }
+    .img-gallary ,.img-gallary-two
+    {
+        margin-left: 30px;
+    }
+    .footer{
+        
+        height: 650px;
+    }
+    .foot-bottom span{
+        display: block;
+        margin-left: -90px;
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .foot-bottom img{
+        margin-left: -50px;
+    }
+    .foot-bottom{
+        margin-top: 180px;
+        height: 90px;
+    }
+}
+// ---------------------------------------------------------------------------------
+
+// FOR LAPTOP VIEW
+// =================
+
+@media (min-width: 991px) and (max-width : 1400px)
+{
+
+    .navbar .search-resp i{
+       display: none;
+    }
+   
+
+}
+
+// FOR TABLET VIEW
+
+// -----------------------MEDIA QUERY------------------------------------------------
+
+// ==================
+
+// navbar
+
+@media (min-width: 768px) and (max-width : 991px)
+{
+    .navbar .search-resp{
+        margin-right: -40px;
+    }
+    .navbar .search i{
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: -90px;
+    }
+    .navbar .navbar-brand{
+        margin-right: 50px;
+    }
+   
+    
+    // carousel
+    
+    #demo .carousel-inner img{
+        height: 350px;
+    }
+    #demo .carousel-inner .carousel-caption{
+        margin-bottom: 40px;
+        margin-right: 180px;
+        text-align: left;
+    }
+    #demo .carousel-inner .carousel-caption h1{
+        font-size: 40px;
+    }
+    #demo .carousel-inner .carousel-caption p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #demo .carousel-inner .carousel-caption button{
+        padding: 10px 25px;
+        margin-top: 4px;
+        font-size: 12px
+    }
+
+    .card-box  {
+        margin: 50px 20px;
+    }
+    .card-box-two  {
+        margin: 50px 160px;
+    }
+
+    .bottom-left {
+        top:530px;
+    }
+    .bottom-left-extra{
+        top:1150px;
+    }
+    .bottom-left-extra2{
+       top:150px;
+    }
+    .section-four h6{
+        font-size: 12px;
+    }
+    .img-gallary{
+        margin: 30px 40px;
+    }
+    .img-gallary .card{
+        margin-top: 12px;
+    }
+    .img-gallary-two{
+        margin: -30px 40px;
+    }
+    .img-gallary-two .card{
+        margin-top: 12px;
+
+    }
+    // footer
+    .footer{
+        
+        height: 540px;
+    }
+    .foot-bottom span{
+        display: block;
+        margin-left: 50px;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .foot-bottom img{
+        margin-left: 160px;
+    }
+    .foot-bottom{
+        height: 80px;
+    }
+
+
+}
+
+// ----------------------------
+
+/* dropdown image items*/
+
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  .dropdown-menu{
+    width: 1200px;
+    border: none;
+  }
+  .dm-1{
+    margin-left: -200px;
+    height: 400px;
+
+  }
+  .dm-2{
+    margin-left: -280px;
+    overflow-y: scroll;
+    height: 580px;
+    overflow-x: hidden;
+  }
+  .dm-3{
+    margin-left: -450px;
+    overflow-y: scroll;
+    height: 580px;
+    overflow-x: hidden;
+  }
+  .dm-4{
+    margin-left: -560px;
+    
+    height: 200px;
+
+  }
+  .dm-5{
+    margin-left: -780px;
+    
+    height: 400px;
+  }
+  .dm-6{
+    margin-left: -100px;
+    
+    height: 180px;
+  }
+  .dm-6 .row .column p{
+    font-size: 14px;
+    line-height: 5px;
+    padding-left: 25px;
+    color: grey;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #fff8f8; */
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content .row img{
+    width: 250px;
+  }
+  .dropdown-content .row h6{
+    cursor: pointer;
+  }
+  .dropdown-content .row h6:hover{
+    color: rgb(5, 148, 196);
+  }
+  
+ 
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 22.33%;
+    padding: 25px;
+    /* background-color: #f1efef; */
+    //  height: 400px; 
+    
+  }
+  .navbar .row{
+    width: 1350px;
+    
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #f7f2f2;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+// -------------------------------------------------------
+
+// hover undeline animation on nav items
+
+// nav ul li a{
+//     color: black;
+//     text-decoration: none;
+//     font-size: 18px;
+//     position: relative;
+// }
+// nav ul li a::after{
+//     content: ' ';
+//     width: 0;
+//     height: 3px;
+//     background: rgb(27, 158, 202);
+//     position: absolute;
+//     left: 12px;
+//     bottom: 3px;
+//     transition: 0.5s;
+// }
+// nav ul li a:hover::after{
+//     width: 75%;
+// }
+// nav ul li {
+//     display: inline-block;
+// }
+// -----------------------------------------------------------------------------------------

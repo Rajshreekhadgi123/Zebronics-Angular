@@ -1,0 +1,250 @@
+// carousel
+#demo .carousel-inner img{
+    height: 550px;
+}
+#demo .carousel-inner .carousel-caption{
+    margin-bottom: 110px;
+    margin-right: 400px;
+    text-align: left;
+}
+#demo .carousel-inner .carousel-caption h1{
+    font-size: 75px;
+}
+#demo .carousel-inner .carousel-caption p{
+    margin-top: 10px;
+}
+#demo .carousel-inner .carousel-caption button{
+    padding: 12px 45px;
+    margin-top: 10px;
+}
+// section 1
+
+.section-one h4{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.img-gallary{
+    justify-content: center;
+    margin-top: 40px;
+    
+   
+}
+.img-gallary img{
+    height: 100px;
+   
+}
+.img-gallary .card{
+    width: 210px;
+}
+.img-gallary .card :hover{
+    background-color: rgb(0, 153, 255);
+    cursor: pointer;
+    
+}
+.img-gallary .card-img-overlay .card-title{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    color: yellow;
+    font-weight: bold;
+}
+.img-gallary-two{
+    justify-content: center;
+    margin-top: 25px;
+    
+    
+}
+.img-gallary-two img{
+    height: 100px;
+}
+
+.img-gallary-two .card{
+    width: 210px;
+    
+}
+.img-gallary-two .card-img-overlay .card-title{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    color: yellow;
+    font-weight: bold;
+}
+.img-gallary-two .card :hover{
+    background-color: rgb(0, 153, 255);
+    cursor: pointer;
+    
+}
+
+// section two
+
+
+.section-two h4{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.img-grid{
+    margin-top: 50px;
+}
+// .img-grid .card .img-one{
+//     width: 380px;
+// }
+.img-grid .card-img-overlay h5{
+    font-size: 17px;
+}
+
+.img-grid .card-img-overlay{
+    color: black;
+    background-color: rgba(255, 255, 0, 0.788);
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bottom-left {
+    position: absolute;
+    top:180px;
+    left: 16px;
+}
+.bottom-left-extra{
+    position: absolute;
+    top:440px;
+    left: 16px;
+}
+.bottom-left-extra2{
+    position: absolute;
+    top:170px;
+    left: 16px;
+}
+.img-grid .card-img-overlay:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    transition: 0.4s;
+    
+}
+.img-grid .card:hover .card-img-overlay{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+// section three
+
+.section-three h4{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.card-box{
+    margin-top: 50px;
+}
+
+.card-box .card{
+    border: none;
+    width: 20rem;
+}
+
+.card-box .card .badge{
+    float: left;
+}
+
+
+.card-box .card-body{
+    text-align: center;
+}
+.card-box .card-body .card-title{
+    font-size: 13px;
+    color: gray;
+    
+}
+.card-box .card-body p{
+    font-size: 14px;
+    color:black;
+}
+.card-box .card-body h5{
+   font-size: 17px;
+   margin-top: -10px;
+}
+
+// section four
+
+.section-four{
+    margin-top: 50px;
+}
+.section-four h4 {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.section-four h6{
+    font-size: 17px;
+    text-align: center;
+}
+// second card section
+
+.card-box-two .card{
+    border: none;
+}
+.card-box-two .card .card-img-top{
+    height: 300px;
+    width: 380px;
+}
+.card-box-two  {
+    margin: 50px 50px;
+}
+.card-box-two .card .card-text{
+    color: rgb(155, 153, 153);
+}
+.card-box-two .card .btn{
+    background-color: rgb(58, 172, 218);
+}
+
+// Section Five
+
+.section-five{
+    margin-top: 50px;
+}
+.section-five h4 , h6 {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.section-five h4 span{
+    text-decoration: underline;
+    color: rgb(34, 103, 231);
+}
+// images
+
+.images{
+    margin-top: 50px;
+    justify-content: center;
+   
+}
+.images img{
+    width: 240px;
+    height: 250px;
+    
+    
+}
+// background second
+
+.back-two{
+    margin-top: 60px;
+}
+
+.content-heading h5{
+    margin-top: 80px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.content-para{
+    font-size: 15px;
+    margin-top: 20px;
+}
